@@ -7,7 +7,7 @@ function canMove(x, y, dx, dy, board) {
     nx < board.length &&
     0 <= ny &&
     ny < board[0].length &&
-    board[nx][ny] !== 'D'
+    board[nx][ny] !== 'D' 
   );
 }
 
