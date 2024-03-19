@@ -5,7 +5,7 @@ function solution(s) {
   let shortenLen = len;
 
   // 문자열을 1개 단위, 2개 단위, ... 문자열 길이의 절반 단위로 잘라가며 압축 수행
-  for (let i = 1; i <= len / 2; i++) {
+  for (let i = 1; i <= len / 2; i++) { 
     // cnt: 단위가 반복되는 횟수를 카운트할 변수
     let cnt = 1; 
     // temp: 현재 단위 문자열을 임시로 저장해둘 변수
